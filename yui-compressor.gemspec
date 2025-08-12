@@ -8,8 +8,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT", "BSD-3-clause", "MPL"]
   s.homepage = "http://github.com/sstephenson/ruby-yui-compressor/"
   s.rubyforge_project = "yui"
-  s.has_rdoc = true
   s.authors = ["Sam Stephenson", "Stephen Crosby"]
   s.files = Dir["README.rdoc", "Rakefile", "lib/**/*", "test/**/*"]
-  s.test_files = Dir["test/*_test.rb"] unless $SAFE > 0
+  s.test_files = Dir["test/*_test.rb"]
 end
